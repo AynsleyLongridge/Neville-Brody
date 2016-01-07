@@ -5,7 +5,10 @@
     font-size: 100%;
     line-height: 1em;
 }
-/*-------------- openning banner---*/
+
+
+
+/*-------------------- openning banner------------------------*/
 img.nevillebrody {
   /* Set rules to fill background */
   min-height: 100%;
@@ -28,10 +31,81 @@ img.nevillebrody {
   }
 }
 
-/*--------------------*/
-.intro {font-family: serif;
-        font-size: 1.5em;
+/*-------------- navigation -------------*/
+nav {   
+        width: 100%;
+        position: absolute;
+        top: 0;
+        font-family: "Myriad Pro Italic";
+        background-color:whitesmoke;
+        font-weight: 500em;
+        padding-top:.8em;
+        padding-bottom:.8em;
+        position: fixed;
+        text-align: center;
+        z-index: 10;
+        opacity: 0.8;
         }
+
+nav ul {
+    text-align: center;   
+    }
+    
+    nav ul li {
+        display: inline;
+        margin: 40px;
+        text-align:right;
+        font-family: "Myriad Pro Italic";
+        }
+
+ li { display: inline;
+}
+
+a:link {
+        text-decoration: none;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-size: 90%;
+        vertical-align: middle;
+}
+        
+
+ a:link {
+        color: black;
+        text-transform: uppercase;
+}
+
+
+a:visited {
+        color:black;
+        text-transform: uppercase;}
+
+
+a:hover {
+    color:dimgrey;
+}
+
+
+
+
+
+
+/*--------------------*/
+/*.intro {font-family: serif;
+        font-size: 1.5em;
+        }*/
+p {font-size: 19px;
+    padding: 0 5em 2em 5em;
+    letter-spacing: 0.03em;
+    color: grey;
+    margin-left: 4em;
+    margin-right: 4em;
+
+}
+
+
+
+
 
 .text {width: 100%;
         
@@ -43,6 +117,29 @@ img.nevillebrody {
 		  	text-align: justify;
 			padding: 1em;
      }
+
+
+.h1intro {
+font-family: 'Open Sans', sans-serif;
+font-weight: 400italic;
+font-size: 6em;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+margin-top: -0.7em;
+padding-top: 3.2em;
+position: absolute;
+text-align: center;
+
+}
+
+#intro {
+padding: 21em 0em 2em 0em;
+font-size: 19px;
+letter-spacing: 0.03em;
+color: grey;
+
+}
 
 
 
@@ -120,56 +217,4 @@ font-size: 3em;
 
 
 
-nav {   
-        width: 100%;
-        position: absolute;
-        top: 0;
-        font-family: "Myriad Pro Italic";
-    background-color:whitesmoke;
-    font-weight: 500em;
-        padding-top:.8em;
-        padding-bottom:.8em;
-        position: fixed;
-        text-align: center;
-        z-index: 10;
-        opacity: 0.8;
-        }
-
-nav ul {
-    text-align: center;   
-    }
-    
-    nav ul li {
-        display: inline;
-        margin: 40px;
-        text-align:right;
-        font-family: "Myriad Pro Italic";
-        }
-
- li { display: inline;
-}
-
-a:link {
-        text-decoration: none;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-        font-size: 90%;
-        vertical-align: middle;
-}
-        
-
- a:link {
-        color: black;
-        text-transform: uppercase;
-}
-
-
-a:visited {
-        color:black;
-        text-transform: uppercase;}
-
-
-a:hover {
-    color:dimgrey;
-}
 
