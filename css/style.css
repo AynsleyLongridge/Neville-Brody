@@ -48,8 +48,6 @@ img.nevillebrody {
 
 
 
-/* ----- MY CSS STYLING ----- */
-/* TYPEOGRAPHY */
 
         h1, h2, h3 {
             font-weight: normal;
@@ -100,28 +98,7 @@ p, li{ padding: 0em 0 1em 0;
 
 */---------------text-----------*/
 
-h1 {
-        font-weight: bolder;
-        font-size: 3.5em;
-        float: right;
-        color: black;
-        margin-bottom: 1em; 
-        font-family: 'Rochester';
-        margin-left: .5em;
-        
-        }
-    
-h2 {
-        
-        font-weight: normal;
-        color: black;
-        font-size: 3em;
-        text-align: left;
-        padding top: 3em; 
-        padding-bottom: .5em;
-        font-family: 'Rochester';
-        border-bottom:1px solid darkorange;
-}
+
         /*---body{
             width: 100%;
             /*max-width: 950px;
