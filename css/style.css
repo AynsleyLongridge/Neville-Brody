@@ -5,21 +5,47 @@
     font-size: 100%;
     line-height: 1em;
 }
+/*-------------- openning banner---*/
+img.nevillebrody {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position:relative;
+  top: 0;
+  left: 0;
+} 
 
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  img.nevillebrody {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+
+/*--------------------*/
 .intro {font-family: serif;
         font-size: 1.5em;
         }
 
-body {width: 90%;
-            max-width: 900px;
+.text {width: 100%;
+        
             min-height: 320px;
             font-size: 1.1em;
             font-family: 'Titillium Web', sans-serif; 
-            margin: auto;
+            margin:;
             line-height: 1.3em;
 		  	text-align: justify;
 			padding: 1em;
-    background-color: black; }
+     }
+
+
+
 
 
 /* ----- MY CSS STYLING ----- */
@@ -38,6 +64,7 @@ body {width: 90%;
         
 header h2 {
     font-style: italic;
+    text-align: center;
     padding: 0.5em 0em 1em 0; 
     line-height: 1em;
     letter-spacing: 0.5px;
@@ -112,27 +139,7 @@ font-size: 3em;
     text-decoration-color: black;
 }
 --*/
-img.nevillebrody {
-  /* Set rules to fill background */
-  min-height: 100%;
-  min-width: 1024px;
-	
-  /* Set up proportionate scaling */
-  width: 100%;
-  height: auto;
-	
-  /* Set up positioning */
-  position:relative;
-  top: 0;
-  left: 0;
-} 
 
-@media screen and (max-width: 1024px) { /* Specific to this particular image */
-  img.nevillebrody {
-    left: 50%;
-    margin-left: -512px;   /* 50% */
-  }
-}
 
 
 
