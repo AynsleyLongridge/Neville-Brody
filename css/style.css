@@ -121,8 +121,8 @@ p {
 
 
 
-.h1intro {
-font-family: sans-serif;
+/*.h1intro {
+font-family: 'Kaushan Script', sans-serif;
 font-weight: 400italic;
 font-size: 6em;
 margin-left: auto;
@@ -134,7 +134,7 @@ position: absolute;
 text-align: center;
 color:#B12E36;
         text-align: center;
-            padding: 0.4em 0 0.4em 0;
+            padding: 0.4em 0 0.4em 0;*/
 }
 #intro {
     margin: auto;
@@ -147,9 +147,20 @@ color: grey;
 
 
 
+h1 {font-family: "Kaushan Script", sans-serif;
+    font-weight: 400italic;
+font-size: 10em;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+margin-top: -0.7em;
+padding-top: 6em;
+position: absolute;
+text-align: center;
+color:#B12E36;
+}
 
-
-     h2, h3 {
+      h2, h3 {
             font-weight: normal;
             font-family: 'Open Sans Condensed', sans-serif;
         color:#B12E36;
