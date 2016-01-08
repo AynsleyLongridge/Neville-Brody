@@ -36,7 +36,7 @@ nav {
         width: 100%;
         position: absolute;
         top: 0;
-        font-family: "Myriad Pro Italic";
+        font-family: "Kaushan Script";
         background-color:whitesmoke;
         font-weight: 500em;
         padding-top:.8em;
@@ -55,7 +55,7 @@ nav ul {
         display: inline;
         margin: 40px;
         text-align:right;
-        font-family: "Myriad Pro Italic";
+        font-family: "Kaushan Script";
         }
 
  li { display: inline;
@@ -116,7 +116,7 @@ p {font-size: 19px;
         
             min-height: 320px;
             font-size: 1.1em;
-            font-family: 'Titillium Web', sans-serif; 
+            font-family: 'Kaushan Script', sans-serif; 
             margin:;
             line-height: 1.3em;
 		  	text-align: justify;
@@ -125,7 +125,7 @@ p {font-size: 19px;
 
 
 .h1intro {
-font-family: 'Open Sans', sans-serif;
+font-family: 'Kaushan Script', sans-serif;
 font-weight: 400italic;
 font-size: 6em;
 margin-left: auto;
