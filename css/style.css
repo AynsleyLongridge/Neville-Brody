@@ -55,6 +55,7 @@ nav ul {
         margin: 40px;
         text-align:right;
         font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 1.7em;
         ;
         }
 
@@ -99,26 +100,19 @@ padding-top: 25em;
 /*.intro {font-family: serif;
         font-size: 1.5em;
         }*/
-p {font-size: 27px;
+p {
     padding: 0 7em 2em 7em;
     letter-spacing: 0.03em;
     color: grey;
     margin-left: 8em;
     margin-right: 8em;
     font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.5em;
     
 
 }
 
 
-
-
-
-.text {width: 100%;
-        
-            min-height: 320px;
-            font-size: 1.1em;
-            font-family: 'Kaushan Script', sans-serif; 
             margin:;
             line-height: 1.3em;
 		  	text-align: justify;
@@ -147,7 +141,6 @@ letter-spacing: 0.03em;
 color: grey;
 
 }
-
 
 
 
