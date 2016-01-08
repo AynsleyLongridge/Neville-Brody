@@ -240,6 +240,8 @@ padding-bottom: 3em;}
 }
   
 
+
+
 .ref {background-color: darkgray;
 opacity: 0.6;
     text-align: center;
@@ -256,27 +258,52 @@ opacity: 0.6;
 .social a:hover {
   opacity: 0.8;
 }
+/*--------------------MEDIA QUERIES--------------------*/
+        
+/*---------- TABLET ----------------*/
+@media (max-width: 50em) {
+    
+   
+    
+article {
+    width: 95%;
+    padding: 0.5em;
+    } 
+    
+    img {
+    display: block;
+    margin: 1em auto;
+    padding: 0;
+    max-width: 100%;
+    }
+} 
 
-*/---------------text-----------*/
+/*----------- SMARTPHONE ----------- */
+ @media (max-width: 30em) {
+    
+   body {
+    margin: auto 0;
+    width: 100%;
+    font-size: 110%;
+    }
+    
+article {
+    width: 75%;
+    } 
 
+h1 {font-size: 2.9em;}   
 
-        /*---body{
-            width: 100%;
-            /*max-width: 950px;
-            min-width; 320px;
-            font-size: 1.5em;
-            font-family: 'Myriad Pro Italic', serif;
-            margin: auto;
-            background-color: #f0f0f0;
-            color: #666666;
-            line-height: 1.4em;
-            }
-
-h2. {font-family: cursive;
-font-size: 3em;
-    text-decoration-color: black;
+blockquote p{padding: 0;
+line-height: 1.5em}  
+     
+hgroup h2 {font-size: 1.5em;
+padding-top: 0.5em}  
+     
+nav ul li {font-size: .75em;
+        margin: 10px}
 }
---*/
+
+
 
 
 
