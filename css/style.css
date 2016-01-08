@@ -193,7 +193,7 @@ p, li{ padding: 0em 0 1em 0;
     
     .anchor a:hover {color: darksalmon}
 
-.footer {text-transform: lowercase;
+.footer {
     line-height: 3em;
     
 }
